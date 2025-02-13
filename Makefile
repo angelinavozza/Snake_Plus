@@ -9,5 +9,5 @@ snake_plus: snake_plus.c
 	$(CC) $(CFLAGS) $(LIBS) snake_plus.c -o $@
 
 clean:
-		rm *.o snake_plus
-		rm -r *.dSYM
+		rm -f snake_plus
+		rm -rf *.dSYM
